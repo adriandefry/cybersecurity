@@ -4,13 +4,13 @@
 
 *The files in this repository were used to configure the network depicted below.
 
-[Project 1 Red-Team Network Diagram](C:\BootCamp_2021\COURSE_CONTENTS\PROJECT1\Diagrams\Red-Team Network Diagram.png)
+[Project 1 Red-Team Network Diagram](C:\BootCamp_2021\COURSE_CONTENTS\Projects\cybersecurity\Diagrams\Red-Team Network Diagram.png)
 
 *These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the Project 1 Red-Team Network Diagram file may be used to install only certain pieces of it, such as Filebeat.
 
-   [filebeat-playbook.yml](C:\BootCamp_2021\COURSE_CONTENTS\PROJECT1\Ansible\filebeat_playbook.yml.txt) 
+   [filebeat-playbook.yml](C:\BootCamp_2021\COURSE_CONTENTS\Projects\cybersecurity\Ansible\filebeat_playbook.yml.txt) 
    
-   [filebeat-configuration.yml](C:\BootCamp_2021\COURSE_CONTENTS\PROJECT1\Linux\filebeat_configuration.yml.txt) 
+   [filebeat-configuration.yml](C:\BootCamp_2021\COURSE_CONTENTS\Projects\cybersecurity\Linux\filebeat_configuration.yml.txt) 
 
 *This document contains the following details:
 - Description of the Topology
@@ -106,7 +106,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 *The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[ELK-VM Docker PS](C:\BootCamp_2021\COURSE_CONTENTS\PROJECT1\Images\ELK-VM Docker PS.png)
+[ELK-VM Docker PS](C:\BootCamp_2021\COURSE_CONTENTS\Projects\cybersecurity\Images\ELK-VM Docker PS.png)
 
 ### Target Machines & Beats
 *This ELK server is configured to monitor the following machines:
@@ -120,8 +120,8 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 - We have installed the following Beats on these machines:
 
-	- [Filebeat Module Status Screenshot](C:\BootCamp_2021\COURSE_CONTENTS\PROJECT1\Images\filebeats_verify.png)
-	- [Metricbeat Module Status Screenshot](C:\BootCamp_2021\COURSE_CONTENTS\PROJECT1\Images\metricbeat_verify.png)
+	- [Filebeat Module Status Screenshot](C:\BootCamp_2021\COURSE_CONTENTS\Projects\cybersecurity\Images\filebeats_verify.png)
+	- [Metricbeat Module Status Screenshot](C:\BootCamp_2021\COURSE_CONTENTS\Projects\cybersecurity\Images\metricbeat_verify.png)
 
 *These Beats allow us to collect the following information from each machine:
 - In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
